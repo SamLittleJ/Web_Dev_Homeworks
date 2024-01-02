@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Java Carousel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!--
+        *Put a nice gradient on background.
+        1. Main box holding the whole carousel.
+            -Center it.
+            -Give it a shadow.
+        2. A box for each image.
+            -Animation when switching.
+        3. Next and previous buttons.
+            -JS function for changing images.
+            -Background on hover.
+        4. Dots for showing count.
+            -Changing from a lighter color to a blacker one
+             on photo change based on the image location.
+    -->
+
+        <div class="Main_Carousel">
+            <div class="Carousel_Img fade">
+                <img src="./assets/firstpic.jpg" alt="" style="width:100%">
+            </div>
+            
+            <div class="Carousel_Img fade">
+                <img src="./assets/secondpic.jpg" alt="" style="width:100%">
+            </div>
+
+            <div class="Carousel_Img fade">
+                <img src="./assets/thirdone.jpg" alt="" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1)">&#10095</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
