@@ -1,0 +1,178 @@
+body {
+    background-color: lightgray 50%;
+    background: url("New_map.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+.gridArea {
+    display:grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: repeat(12, 50px);
+    justify-items:center;
+    justify-content: space-between;
+}
+
+.mainH {
+    grid-column: 2;
+    grid-row: 1;
+    color: #FFF;
+    text-align: center;
+    font-family: Khand;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: auto;
+}
+
+.secondaryH {
+    grid-column: 2;
+    grid-row: 5;
+    color: #FFF;
+    text-align: center;
+    font-family: Khand;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.firstWindow {
+    grid-column: 1;
+    grid-row: 10;
+    width: 300px;
+    height: 400px;
+    border-radius: 18px;
+    background: #D9D9D9;
+    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.60);
+    
+}
+
+.secondWindow {
+    grid-column: 2;
+    grid-row: 10;
+    width: 300px;
+    height: 400px;
+    border-radius: 18px;
+    background: #D9D9D9;
+    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.60);
+}
+
+.thirdWindow {
+    grid-column: 3  ;
+    grid-row: 10;
+    width: 300px;
+    height: 400px;
+    border-radius: 18px;
+    background: #D9D9D9;
+    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.60);
+   
+}
+
+.firstWindowGrid {
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: repeat(10, 30px);
+    justify-items: center;
+}
+
+.userSvg {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.firstWindowFirstText {
+    color: #938989;
+    text-align: center;
+    font-family: Khand;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    grid-column: 2;
+    grid-row: 7;
+}
+
+.firstWindowSecondText {
+    grid-column: 2;
+    grid-row: 10;
+    color: #858585;
+    text-align: center;
+    font-family: Khand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.secondWindowGrid {
+    display:grid;
+    grid-template-columns: 1fr 7fr 1fr;
+    grid-template-rows: repeat(10, 30px);
+    justify-items: center;
+}
+
+.passwordSvg {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.secondWindowFirstText {
+    color: #938989;
+    text-align: center;
+    font-family: Khand;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    grid-column: 2;
+    grid-row: 7;
+}
+
+.secondWindowSecondText {
+    grid-column: 2;
+    grid-row: 10;
+    color: #858585;
+    text-align: center;
+    font-family: Khand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.thirdWindowGrid {
+    display:grid;
+    grid-template-columns: 1fr fr 1fr;
+    grid-template-rows: repeat(10, 30px);
+    justify-items: center;
+}
+
+.emailSvg {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.thirdWindowFirstText {
+    color: #938989;
+    text-align: center;
+    font-family: Khand;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    grid-column: 2;
+    grid-row: 7;
+}
+
+.thirdWindowSecondText {
+    grid-column: 2;
+    grid-row: 10;
+    color: #858585;
+    text-align: center;
+    font-family: Khand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
